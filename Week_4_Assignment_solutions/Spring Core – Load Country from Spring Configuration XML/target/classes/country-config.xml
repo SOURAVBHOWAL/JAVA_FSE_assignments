@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!-- Country Bean Definitions -->
+    <bean id="country1" class="com.example.model.Country">
+        <constructor-arg name="id" value="1"/>
+        <constructor-arg name="name" value="United States"/>
+        <constructor-arg name="code" value="US"/>
+        <constructor-arg name="capital" value="Washington D.C."/>
+        <constructor-arg name="population" value="331900000"/>
+        <constructor-arg name="continent" value="North America"/>
+    </bean>
+
+    <bean id="country2" class="com.example.model.Country">
+        <constructor-arg name="id" value="2"/>
+        <constructor-arg name="name" value="India"/>
+        <constructor-arg name="code" value="IN"/>
+        <constructor-arg name="capital" value="New Delhi"/>
+        <constructor-arg name="population" value="1380004385"/>
+        <constructor-arg name="continent" value="Asia"/>
+    </bean>
+
+    <bean id="country3" class="com.example.model.Country">
+        <constructor-arg name="id" value="3"/>
+        <constructor-arg name="name" value="Germany"/>
+        <constructor-arg name="code" value="DE"/>
+        <constructor-arg name="capital" value="Berlin"/>
+        <constructor-arg name="population" value="83783942"/>
+        <constructor-arg name="continent" value="Europe"/>
+    </bean>
+
+    <bean id="country4" class="com.example.model.Country">
+        <constructor-arg name="id" value="4"/>
+        <constructor-arg name="name" value="Japan"/>
+        <constructor-arg name="code" value="JP"/>
+        <constructor-arg name="capital" value="Tokyo"/>
+        <constructor-arg name="population" value="125836021"/>
+        <constructor-arg name="continent" value="Asia"/>
+    </bean>
+
+    <bean id="country5" class="com.example.model.Country">
+        <constructor-arg name="id" value="5"/>
+        <constructor-arg name="name" value="Brazil"/>
+        <constructor-arg name="code" value="BR"/>
+        <constructor-arg name="capital" value="Brasília"/>
+        <constructor-arg name="population" value="215313498"/>
+        <constructor-arg name="continent" value="South America"/>
+    </bean>
+
+    <bean id="country6" class="com.example.model.Country">
+        <constructor-arg name="id" value="6"/>
+        <constructor-arg name="name" value="Australia"/>
+        <constructor-arg name="code" value="AU"/>
+        <constructor-arg name="capital" value="Canberra"/>
+        <constructor-arg name="population" value="25499884"/>
+        <constructor-arg name="continent" value="Oceania"/>
+    </bean>
+
+    <!-- Countries List Bean -->
+    <util:list id="countriesList" value-type="com.example.model.Country">
+        <ref bean="country1"/>
+        <ref bean="country2"/>
+        <ref bean="country3"/>
+        <ref bean="country4"/>
+        <ref bean="country5"/>
+        <ref bean="country6"/>
+    </util:list>
+
+</beans>
