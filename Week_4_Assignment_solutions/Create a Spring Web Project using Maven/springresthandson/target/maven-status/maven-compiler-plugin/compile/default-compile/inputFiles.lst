@@ -1,0 +1,10 @@
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\exception\DuplicateResourceException.java
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\SpringRestHandsonApplication.java
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\entity\User.java
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\exception\GlobalExceptionHandler.java
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\repository\UserRepository.java
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\service\UserService.java
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\controller\UserController.java
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\exception\ErrorResponse.java
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\exception\ResourceNotFoundException.java
+C:\java\Week_4_Assignment_solutions\Create a Spring Web Project using Maven\springresthandson\src\main\java\com\example\springresthandson\exception\ValidationErrorResponse.java

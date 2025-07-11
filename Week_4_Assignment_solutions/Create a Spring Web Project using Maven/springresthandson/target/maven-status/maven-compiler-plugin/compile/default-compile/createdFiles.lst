@@ -1,0 +1,10 @@
+com\example\springresthandson\entity\User.class
+com\example\springresthandson\SpringRestHandsonApplication.class
+com\example\springresthandson\service\UserService.class
+com\example\springresthandson\exception\GlobalExceptionHandler.class
+com\example\springresthandson\exception\DuplicateResourceException.class
+com\example\springresthandson\exception\ResourceNotFoundException.class
+com\example\springresthandson\exception\ErrorResponse.class
+com\example\springresthandson\repository\UserRepository.class
+com\example\springresthandson\exception\ValidationErrorResponse.class
+com\example\springresthandson\controller\UserController.class
